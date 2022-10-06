@@ -18,8 +18,6 @@ env:
  environment: "production"
  name: ZGFtb2xhCg==
 
-
-
 serviceAccount:
   # Specifies whether a service account should be created
   create: false
