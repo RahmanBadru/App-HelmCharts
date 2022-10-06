@@ -15,8 +15,8 @@ nameOverride: ""
 fullnameOverride: ""
 
 env:
- environment: "production"
- name: ZGFtb2xhCg==
+ environment: "dev"
+ name: ZG9sYXBvCg==
 
 
 
