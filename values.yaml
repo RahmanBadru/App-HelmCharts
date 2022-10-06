@@ -15,8 +15,8 @@ nameOverride: ""
 fullnameOverride: ""
 
 env:
- environment: "dev"
- name: ZG9sYXBvCg==
+ environment: "uat"
+ name: b3Jlb2x1d2EK
 
 
 
