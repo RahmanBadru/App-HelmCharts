@@ -48,12 +48,12 @@ spec:
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
           env:
-            - name: 
+            - name: environment
               valueFrom:
                 configMapKeyRef:
                   name: {{ include "flask-app.fullname" . }}
                   key: environment
-            - name:
+            - name: name
               valueFrom:
                 secretKeyRef:
                   name: {{ include "flask-app.fullname" .}} 
